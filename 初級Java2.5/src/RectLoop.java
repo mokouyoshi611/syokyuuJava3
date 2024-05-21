@@ -1,18 +1,19 @@
 
 public class RectLoop extends MyFrame{
 	public void run() {
-		setColor(0,128,0);
-		int x=35;
-		int y=5;
 		int i;
+		int x=35;
+		int y=0;
+	
 		for (i=0 ; i<10 ; i++) {
-			fillRect(x,60,10,y);
-			
-
-            y+=15;
-			x+=15;
+		setColor(y,y,y);
+		fillRect(x,100,10,100);
+		y+=20;
+		x+=20;
+		
 
 		}
+		
 	}
 
 }
