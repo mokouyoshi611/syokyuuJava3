@@ -2,7 +2,7 @@
 public class Animation extends MyFrame{
 	public void run(){
 		int x = 170;
-		while (x<=170) {
+		while (x>=30) {
 			clear();
 			
 			setColor(0,128,0);
