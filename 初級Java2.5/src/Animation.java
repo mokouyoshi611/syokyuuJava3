@@ -3,6 +3,7 @@ public class Animation extends MyFrame{
 	public void run(){
 		int y = 100;
 		int x=30;
+		while(true) {
 		while (x<=170) {
 			clear();
 			
@@ -21,7 +22,7 @@ public class Animation extends MyFrame{
 
 			sleep(0.1);
 		}
-		
+	}
 	}
 
 }
