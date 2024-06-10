@@ -1,11 +1,8 @@
 
-public class Train {
-	int x,y,vx,vy;
+public class Train extends Vehicle {
+	
 	public Train(int x,int y,int vx,int vy) {
-		this.x=x;
-		this.y=y;
-		this.vx=vx;
-		this.vy=vy;
+	super(x,y,vx,vy);
 		
 	}
 	public void draw(MyFrame frame) {
